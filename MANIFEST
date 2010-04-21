@@ -1,5 +1,5 @@
 Build.PL
 lib/WWW/Instapaper/Client.pm
 MANIFEST			This list of files
-META.yml
 t/00_basic.t
+META.yml

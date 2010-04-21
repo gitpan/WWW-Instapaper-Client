@@ -8,7 +8,7 @@ use LWP::UserAgent;
 use HTTP::Request::Common 'POST';
 # local %ENV;
 
-our $VERSION = '0.9_001';
+our $VERSION = '0.901';
 
 sub init {
 	my ($self, $config) = @_;
