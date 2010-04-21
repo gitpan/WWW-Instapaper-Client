@@ -8,7 +8,7 @@ use LWP::UserAgent;
 use HTTP::Request::Common 'POST';
 # local %ENV;
 
-our $VERSION = '0.9';
+our $VERSION = '0.9_001';
 
 sub init {
 	my ($self, $config) = @_;
@@ -221,6 +221,12 @@ If an error is encountered, C<authenticate> returns undefined and the error mess
 C<$paper->error()>.
 
 =back
+
+=head1 CHANGELOG
+
+=item Release 0.9_001
+
+Fixed dependency bug in Build.PL - forgot that Class::Base was required.
 
 =head1 AUTHOR
 

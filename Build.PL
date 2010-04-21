@@ -9,6 +9,7 @@ my $build = Module::Build->new (
 		'LWP::UserAgent' => '0',
 		'HTTP::Request::Common' => '0',
 		'Crypt::SSLeay' => '0',
+		'Class::Base'   => '0',
 	},
 	build_requires => {
 		'Test::Harness' => '0',
